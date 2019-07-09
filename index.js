@@ -6,8 +6,8 @@
 
 require('dotenv').config();
 
-const { Testnet } = require('./network');
-const poktEthApi = require('./api');
+const { Testnet } = require('./src/network');
+const poktEthApi = require('./src/api');
 const poktNode = Testnet();
 const addr = "0x5d995307577557f4d1b7be246056da268f238c9b";
 
