@@ -1,0 +1,32 @@
+{
+  "name": "pokt-sample",
+  "version": "0.9.0",
+  "description": "Tutorial pocket sample project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lightstreams-network/pokt-sample.git"
+  },
+  "keywords": [
+    "pocket",
+    "network",
+    "pokt",
+    "lightstreams",
+    "ethereum",
+    "dapp",
+    "nodejs"
+  ],
+  "author": "Gabriel Garrido",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lightstreams-network/pokt-sample/issues"
+  },
+  "homepage": "https://github.com/lightstreams-network/pokt-sample#readme",
+  "dependencies": {
+    "@pokt-network/pocket-js": "0.0.2",
+    "dotenv": "^8.0.0"
+  }
+}
