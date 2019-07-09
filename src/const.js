@@ -6,6 +6,7 @@
 
 
 module.exports.maxNodes = 1;
-module.exports.requestTimeOut = 1000;
+module.exports.requestTimeOut = 10000;
 module.exports.TestnetNetId = "162";
 module.exports.MainnetNetId = "163";
+module.exports.LightchainTicker = "PHT";
