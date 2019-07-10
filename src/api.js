@@ -5,8 +5,8 @@
  */
 
 
-module.exports.getBalance = async (ethNode, address) => {
-  const resp = await ethNode.eth.getBalance(address);
+module.exports.getBalance = async (web3, address) => {
+  const resp = await web3.eth.getBalance(address);
   if (resp.__proto__.name === 'Error') {
     throw resp;
   }
